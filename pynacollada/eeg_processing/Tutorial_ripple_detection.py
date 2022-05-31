@@ -2,7 +2,7 @@
 # @Author: gviejo
 # @Date:   2022-01-17 15:50:57
 # @Last Modified by:   gviejo
-# @Last Modified time: 2022-01-28 13:36:40
+# @Last Modified time: 2022-04-11 17:46:22
 
 import numpy as np
 import pynapple as nap
@@ -55,8 +55,6 @@ minInterRippleInterval = 20 # ms
 
 
 rip_ep = rip_ep.merge_close_intervals(minInterRippleInterval, time_units = 'ms')
-
-
 rip_ep = rip_ep.reset_index(drop=True)
 
 # Extracting Ripple peak

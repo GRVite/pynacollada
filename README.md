@@ -10,7 +10,7 @@ Collaborative platform for high-level analysis with pynapple.
     + [Neural Ensembles](#neural-ensembles)
     + [Manifolds](#manifolds)
     + [EEG processing](#eeg-processing)
-    + [PSTH PETH](#psth-peth)
+    + [PETH](#peth)
     + [Brain state scoring](#brain-state-scoring)
     + [Graphics](#graphics)
     + [Position tracking](#position-tracking)
@@ -64,15 +64,21 @@ $ pip install -e .
 | :---                       |    :----:   |          :---
 | [Tutorial_ripple_detection.ipynb](pynacollada/eeg_processing/Tutorial_ripple_detection.ipynb) <br/> [Tutorial_ripple_detection.py](pynacollada/eeg_processing/Tutorial_ripple_detection.ipynb) | This tutorial shows how to detect ripples in CA1 step by steps | Guillaume Viejo
 
-### PSTH PETH
+### PETH
 
 | Jupyter notebook / scripts | Description | Contributors
 | :---                       |    :----:   |          :---
-| [Tutorial_PETH_Ripples.ipynb](pynacollada/PSTH/Tutorial_PETH_Ripples.ipynb) | This tutorial shows how to make a peri-event time histogramm and raster plots around ripples | Guillaume Viejo
+| [Tutorial_PETH_Ripples.ipynb](pynacollada/PETH/Tutorial_PETH_Ripples.ipynb) | This tutorial shows how to make a peri-event time histogramm and raster plots around ripples | Guillaume Viejo
+
+### Position tracking
+
+| Jupyter notebook / scripts | Description | Contributors
+| :---                       |    :----:   |          :---
+| [Tutorial_DeepLabCut_Path_Segmentation.ipynb](pynacollada/position_tracking/DLC_process_position.ipynb) | This tutorial shows how to segment the path of a mouse running in a radial-arm maze with position extracted with DeepLabCut. | Dhruv Mehrotra
 
 ### Brain state scoring
 
 ### Graphics
 
-### Position tracking
+
 
